@@ -11,7 +11,6 @@ import { MatExpansionModule } from '@angular/material/expansion';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatTableModule } from '@angular/material/table';
-import { ResultTableComponent } from './result-table/result-table.component';
 
 const angularMaterialModules = [
   MatSelectModule,
@@ -22,8 +21,7 @@ const angularMaterialModules = [
 
 @NgModule({
   declarations: [
-    CalculationPageComponent,
-    ResultTableComponent
+    CalculationPageComponent
   ],
   imports: [
     CommonModule,

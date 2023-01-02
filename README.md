@@ -1,27 +1,14 @@
 # StatisticApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.2.
+This application generated with Angular CLI.
+Please before running application be sure you have installed locally Angular.
+See the link how to do it: `https://angular.io/guide/setup-local`.
 
-## Development server
+# How to run StatisticApp
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. After successful installing of Angular, please use command in terminal `npm i` to install all needed modules.
+2. To run app please use command `npm run start:proxy:fake:server`
+3. Find the app by this link `http://localhost:4200/`
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Thanks for using our application.
+New features will be soon.
