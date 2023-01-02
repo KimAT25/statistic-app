@@ -1,0 +1,25 @@
+.calculation-container {
+  margin-top: 2rem;
+
+}
+
+.section {
+  border-bottom: 1px solid #000000;
+  padding-bottom: 1rem;
+
+  &:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  &__description {
+    .formula {
+      text-align: center;
+    }
+
+    .calculation-btn {
+      min-width: 400px;
+      margin-bottom: 2rem;
+    }
+  }
+}

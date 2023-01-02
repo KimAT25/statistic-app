@@ -1,0 +1,1549 @@
+{
+  "byRegion": [
+    {
+      "id": 1,
+      "regionName": "Вінницька",
+      "regionData": [
+        {
+          "year": 2014,
+          "value": 27249,
+          "valueF2": 19115.2
+        },
+        {
+          "year": 2015,
+          "value": 27249,
+          "valueF2": 30480.4
+        },
+        {
+          "year": 2016,
+          "value": 37270,
+          "valueF2": 37383.1
+        },
+        {
+          "year": 2017,
+          "value": 46615,
+          "valueF2": 45607.7
+        },
+        {
+          "year": 2018,
+          "value": 58384,
+          "valueF2": 49170.4
+        },
+        {
+          "year": 2019,
+          "value": 71104,
+          "valueF2": 52478.4
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "regionName": "Волинська",
+      "regionData": [
+        {
+          "year": 2014,
+          "value": 23218,
+          "valueF2": 13130.0
+        },
+        {
+          "year": 2015,
+          "value": 23218,
+          "valueF2": 18628.6
+        },
+        {
+          "year": 2016,
+          "value": 30387,
+          "valueF2": 22440.1
+        },
+        {
+          "year": 2017,
+          "value": 34310,
+          "valueF2": 28099.0
+        },
+        {
+          "year": 2018,
+          "value": 49987,
+          "valueF2": 29798.5
+        },
+        {
+          "year": 2019,
+          "value": 58297,
+          "valueF2": 30585.3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "regionName": "Дніпропетровська",
+      "regionData": [
+        {
+          "year": 2014,
+          "value": 53749,
+          "valueF2": 76771.6
+        },
+        {
+          "year": 2015,
+          "value": 53749,
+          "valueF2": 92665.5
+        },
+        {
+          "year": 2016,
+          "value": 65897,
+          "valueF2": 106550.5
+        },
+        {
+          "year": 2017,
+          "value": 75396,
+          "valueF2": 136028.7
+        },
+        {
+          "year": 2018,
+          "value": 97137,
+          "valueF2": 149583.7
+        },
+        {
+          "year": 2019,
+          "value": 114784,
+          "valueF2": 142289.0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "regionName": "Донецька",
+      "regionData": [
+        {
+          "year": 2014,
+          "value": 27771,
+          "valueF2": 41981.8
+        },
+        {
+          "year": 2015,
+          "value": 27771,
+          "valueF2": 49851.4
+        },
+        {
+          "year": 2016,
+          "value": 26864,
+          "valueF2": 63147.8
+        },
+        {
+          "year": 2017,
+          "value": 32318,
+          "valueF2": 61266.9
+        },
+        {
+          "year": 2018,
+          "value": 39411,
+          "valueF2": 74582.8
+        },
+        {
+          "year": 2019,
+          "value": 45959,
+          "valueF2": 68439.6
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "regionName": "Житомирська",
+      "regionData": [
+        {
+          "year": 2014,
+          "value": 23678,
+          "valueF2": 16751.4
+        },
+        {
+          "year": 2015,
+          "value": 23678,
+          "valueF2": 20561.2
+        },
+        {
+          "year": 2016,
+          "value": 30698,
+          "valueF2": 27077.6
+        },
+        {
+          "year": 2017,
+          "value": 38520,
+          "valueF2": 33289.2
+        },
+        {
+          "year": 2018,
+          "value": 49737,
+          "valueF2": 36223.9
+        },
+        {
+          "year": 2019,
+          "value": 62911,
+          "valueF2": 37457.1
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "regionName": "Закарпатська",
+      "regionData": [
+        {
+          "year": 2014,
+          "value": 19170,
+          "valueF2": 8864.4
+        },
+        {
+          "year": 2015,
+          "value": 19170,
+          "valueF2": 11015.5
+        },
+        {
+          "year": 2016,
+          "value": 22989,
+          "valueF2": 14672.2
+        },
+        {
+          "year": 2017,
+          "value": 25727,
+          "valueF2": 17799.3
+        },
+        {
+          "year": 2018,
+          "value": 34202,
+          "valueF2": 18976.0
+        },
+        {
+          "year": 2019,
+          "value": 41706,
+          "valueF2": 19086.0
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "regionName": "Запорізька",
+      "regionData": [
+        {
+          "year": 2014,
+          "value": 37251,
+          "valueF2": 55233.7
+        },
+        {
+          "year": 2015,
+          "value": 37251,
+          "valueF2": 76892.4
+        },
+        {
+          "year": 2016,
+          "value": 50609,
+          "valueF2": 87566.3
+        },
+        {
+          "year": 2017,
+          "value": 59729,
+          "valueF2": 114071.5
+        },
+        {
+          "year": 2018,
+          "value": 75306,
+          "valueF2": 123206.7
+        },
+        {
+          "year": 2019,
+          "value": 85784,
+          "valueF2": 114981.1
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "regionName": "Івано-Франківська",
+      "regionData": [
+        {
+          "year": 2014,
+          "value": 27232,
+          "valueF2": 18188.8
+        },
+        {
+          "year": 2015,
+          "value": 27232,
+          "valueF2": 25130.6
+        },
+        {
+          "year": 2016,
+          "value": 33170,
+          "valueF2": 26983.3
+        },
+        {
+          "year": 2017,
+          "value": 37220,
+          "valueF2": 35420.8
+        },
+        {
+          "year": 2018,
+          "value": 46312,
+          "valueF2": 51739.3
+        },
+        {
+          "year": 2019,
+          "value": 57033,
+          "valueF2": 48750.1
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "regionName": "Київська",
+      "regionData": [
+        {
+          "year": 2014,
+          "value": 46058,
+          "valueF2": 32696.2
+        },
+        {
+          "year": 2015,
+          "value": 46058,
+          "valueF2": 42663.8
+        },
+        {
+          "year": 2016,
+          "value": 60109,
+          "valueF2": 56095.8
+        },
+        {
+          "year": 2017,
+          "value": 74216,
+          "valueF2": 54733.6
+        },
+        {
+          "year": 2018,
+          "value": 90027,
+          "valueF2": 64900.7
+        },
+        {
+          "year": 2019,
+          "value": 112521,
+          "valueF2": 68058.8
+        }
+      ]
+    },
+    {
+      "id":10,
+      "regionName": "Кіровоградська",
+      "regionData": [
+        {
+          "year": 2014,
+          "value": 29223,
+          "valueF2": 20688.6
+        },
+        {
+          "year": 2015,
+          "value": 29223,
+          "valueF2": 24035.7
+        },
+        {
+          "year": 2016,
+          "value": 39356,
+          "valueF2": 25968.7
+        },
+        {
+          "year": 2017,
+          "value": 47469,
+          "valueF2": 30779.2
+        },
+        {
+          "year": 2018,
+          "value": 55183,
+          "valueF2": 31101.1
+        },
+        {
+          "year": 2019,
+          "value": 67763,
+          "valueF2": 34338.9
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "regionName": "Луганська",
+      "regionData": [
+        {
+          "year": 2014,
+          "value": 14079,
+          "valueF2": 17670.0
+        },
+        {
+          "year": 2015,
+          "value": 14079,
+          "valueF2": 10785.4
+        },
+        {
+          "year": 2016,
+          "value": 10778,
+          "valueF2": 17132.7
+        },
+        {
+          "year": 2017,
+          "value": 14251,
+          "valueF2": 11218.1
+        },
+        {
+          "year": 2018,
+          "value": 13883,
+          "valueF2": 10578.0
+        },
+        {
+          "year": 2019,
+          "value": 16301,
+          "valueF2": 10219.1
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "regionName": "Львівська",
+      "regionData": [
+        {
+          "year": 2014,
+          "value": 28731,
+          "valueF2": 15596.0
+        },
+        {
+          "year": 2015,
+          "value": 28731,
+          "valueF2": 23068.7
+        },
+        {
+          "year": 2016,
+          "value": 37338,
+          "valueF2": 28564.7
+        },
+        {
+          "year": 2017,
+          "value": 45319,
+          "valueF2": 36123.2
+        },
+        {
+          "year": 2018,
+          "value": 58221,
+          "valueF2": 39681.9
+        },
+        {
+          "year": 2019,
+          "value": 70173,
+          "valueF2": 41829.4
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "regionName": "Миколаївська",
+      "regionData": [
+        {
+          "year": 2014,
+          "value": 30357,
+          "valueF2": 22059.5
+        },
+        {
+          "year": 2015,
+          "value": 30357,
+          "valueF2": 30094.9
+        },
+        {
+          "year": 2016,
+          "value": 41501,
+          "valueF2": 40161.1
+        },
+        {
+          "year": 2017,
+          "value": 50091,
+          "valueF2": 46799.4
+        },
+        {
+          "year": 2018,
+          "value": 60549,
+          "valueF2": 51211.9
+        },
+        {
+          "year": 2019,
+          "value": 70336,
+          "valueF2": 55148.1
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "regionName": "Одеська",
+      "regionData": [
+        {
+          "year": 2014,
+          "value": 31268,
+          "valueF2": 14088.9
+        },
+        {
+          "year": 2015,
+          "value": 31268,
+          "valueF2": 22410.1
+        },
+        {
+          "year": 2016,
+          "value": 41682,
+          "valueF2": 24675.5
+        },
+        {
+          "year": 2017,
+          "value": 50159,
+          "valueF2": 28294.6
+        },
+        {
+          "year": 2018,
+          "value": 62701,
+          "valueF2": 24422.3
+        },
+        {
+          "year": 2019,
+          "value": 72738,
+          "valueF2": 25815.1
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "regionName": "Полтавська",
+      "regionData": [
+        {
+          "year": 2014,
+          "value": 48040,
+          "valueF2": 59666.2
+        },
+        {
+          "year": 2015,
+          "value": 48040,
+          "valueF2": 77131.6
+        },
+        {
+          "year": 2016,
+          "value": 66390,
+          "valueF2": 100659.1
+        },
+        {
+          "year": 2017,
+          "value": 81145,
+          "valueF2": 136094.3
+        },
+        {
+          "year": 2018,
+          "value": 106248,
+          "valueF2": 132723.4
+        },
+        {
+          "year": 2019,
+          "value": 123763,
+          "valueF2": 120922.5
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "regionName": "Рівненська",
+      "regionData": [
+        {
+          "year": 2014,
+          "value": 24762,
+          "valueF2": 16522.3
+        },
+        {
+          "year": 2015,
+          "value": 24762,
+          "valueF2": 23136.7
+        },
+        {
+          "year": 2016,
+          "value": 30350,
+          "valueF2": 26815.2
+        },
+        {
+          "year": 2017,
+          "value": 33958,
+          "valueF2": 31561.1
+        },
+        {
+          "year": 2018,
+          "value": 42038,
+          "valueF2": 32481.9
+        },
+        {
+          "year": 2019,
+          "value": 49044,
+          "valueF2": 37058.2
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "regionName": "Сумська",
+      "regionData": [
+        {
+          "year": 2014,
+          "value": 26943,
+          "valueF2": 23630.7
+        },
+        {
+          "year": 2015,
+          "value": 26943,
+          "valueF2": 32909.7
+        },
+        {
+          "year": 2016,
+          "value": 37170,
+          "valueF2": 32615.7
+        },
+        {
+          "year": 2017,
+          "value": 41741,
+          "valueF2": 39064.5
+        },
+        {
+          "year": 2018,
+          "value": 51419,
+          "valueF2": 44127.6
+        },
+        {
+          "year": 2019,
+          "value": 62955,
+          "valueF2": 44941.0
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "regionName": "Тернопільська",
+      "regionData": [
+        {
+          "year": 2014,
+          "value": 20228,
+          "valueF2": 8817.0
+        },
+        {
+          "year": 2015,
+          "value": 20228,
+          "valueF2": 12681.2
+        },
+        {
+          "year": 2016,
+          "value": 24963,
+          "valueF2": 15516.2
+        },
+        {
+          "year": 2017,
+          "value": 29247,
+          "valueF2": 20539.6
+        },
+        {
+          "year": 2018,
+          "value": 38593,
+          "valueF2": 20771.8
+        },
+        {
+          "year": 2019,
+          "value": 46833,
+          "valueF2": 19914.5
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "regionName": "Харківська",
+      "regionData": [
+        {
+          "year": 2014,
+          "value": 35328,
+          "valueF2": 31744.8
+        },
+        {
+          "year": 2015,
+          "value": 35328,
+          "valueF2": 41928.4
+        },
+        {
+          "year": 2016,
+          "value": 45816,
+          "valueF2": 56705.6
+        },
+        {
+          "year": 2017,
+          "value": 57150,
+          "valueF2": 68469.6
+        },
+        {
+          "year": 2018,
+          "value": 69489,
+          "valueF2": 70902.1
+        },
+        {
+          "year": 2019,
+          "value": 86904,
+          "valueF2": 69605.2
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "regionName": "Херсонська",
+      "regionData": [
+        {
+          "year": 2014,
+          "value": 21725,
+          "valueF2": 11320.3
+        },
+        {
+          "year": 2015,
+          "value": 21725,
+          "valueF2": 16248.8
+        },
+        {
+          "year": 2016,
+          "value": 30246,
+          "valueF2": 24284.3
+        },
+        {
+          "year": 2017,
+          "value": 36585,
+          "valueF2": 26746.2
+        },
+        {
+          "year": 2018,
+          "value": 45532,
+          "valueF2": 27577.6
+        },
+        {
+          "year": 2019,
+          "value": 52922,
+          "valueF2": 29604.1
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "regionName": "Хмельницька",
+      "regionData": [
+        {
+          "year": 2014,
+          "value": 24662,
+          "valueF2": 15335.5
+        },
+        {
+          "year": 2015,
+          "value": 24662,
+          "valueF2": 20846.6
+        },
+        {
+          "year": 2016,
+          "value": 31660,
+          "valueF2": 26335.0
+        },
+        {
+          "year": 2017,
+          "value": 37881,
+          "valueF2": 31386.1
+        },
+        {
+          "year": 2018,
+          "value": 49916,
+          "valueF2": 33670.7
+        },
+        {
+          "year": 2019,
+          "value": 59583,
+          "valueF2": 34392.0
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "regionName": "Черкаська",
+      "regionData": [
+        {
+          "year": 2014,
+          "value": 30628,
+          "valueF2": 30150.2
+        },
+        {
+          "year": 2015,
+          "value": 30628,
+          "valueF2": 38819.9
+        },
+        {
+          "year": 2016,
+          "value": 40759,
+          "valueF2": 47144.1
+        },
+        {
+          "year": 2017,
+          "value": 48025,
+          "valueF2": 56034.4
+        },
+        {
+          "year": 2018,
+          "value": 59697,
+          "valueF2": 57890.8
+        },
+        {
+          "year": 2019,
+          "value": 76904,
+          "valueF2": 61514.6
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "regionName": "Чернівецька",
+      "regionData": [
+        {
+          "year": 2014,
+          "value": 16552,
+          "valueF2": 5142.8
+        },
+        {
+          "year": 2015,
+          "value": 16552,
+          "valueF2": 7499.9
+        },
+        {
+          "year": 2016,
+          "value": 20338,
+          "valueF2": 10369.0
+        },
+        {
+          "year": 2017,
+          "value": 23365,
+          "valueF2": 12641.4
+        },
+        {
+          "year": 2018,
+          "value": 31509,
+          "valueF2": 17094.0
+        },
+        {
+          "year": 2019,
+          "value": 37441,
+          "valueF2": 15093.2
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "regionName": "Чернігівська",
+      "regionData": [
+        {
+          "year": 2014,
+          "value": 26530,
+          "valueF2": 20637.4
+        },
+        {
+          "year": 2015,
+          "value": 26530,
+          "valueF2": 26719.2
+        },
+        {
+          "year": 2016,
+          "value": 35196,
+          "valueF2": 37223.1
+        },
+        {
+          "year": 2017,
+          "value": 41726,
+          "valueF2": 46135.4
+        },
+        {
+          "year": 2018,
+          "value": 55198,
+          "valueF2": 35538.2
+        },
+        {
+          "year": 2019,
+          "value": 69725,
+          "valueF2": 34334.3
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "regionName": "Київ",
+      "regionData": [
+        {
+          "year": 2014,
+          "value": 124163,
+          "valueF2": 88547.1
+        },
+        {
+          "year": 2015,
+          "value": 124163,
+          "valueF2": 105757.4
+        },
+        {
+          "year": 2016,
+          "value": 155904,
+          "valueF2": 133532.0
+        },
+        {
+          "year": 2017,
+          "value": 191736,
+          "valueF2": 1548884.7
+        },
+        {
+          "year": 2018,
+          "value": 238622,
+          "valueF2": 1568354.2
+        },
+        {
+          "year": 2019,
+          "value": 283097,
+          "valueF2": 1581334.1
+        }
+      ]
+    }
+  ],
+  "byYear": [
+    {
+      "id": 1,
+      "yearData": [
+        {
+          "regionName": "Вінницькії",
+          "value": 27249
+        },
+        {
+          "regionName": "Волинськії",
+          "value": 23218
+        },
+        {
+          "regionName": "Дніпропетровська",
+          "value": 53749
+        },
+        {
+          "regionName": "Донецька",
+          "value": 27771
+        },
+        {
+          "regionName": "Житомирська",
+          "value": 23678
+        },
+        {
+          "regionName": "Закарпатська",
+          "value": 19170
+        },
+        {
+          "regionName": "Запорізька",
+          "value": 37251
+        },
+        {
+          "regionName": "Івано-Франківська",
+          "value": 27232
+        },
+        {
+          "regionName": "Київська",
+          "value": 46058
+        },
+        {
+          "regionName": "Кіровоградська",
+          "value": 29223
+        },
+        {
+          "regionName": "Луганська",
+          "value": 14079
+        },
+        {
+          "regionName": "Львівська",
+          "value": 28731
+        },
+        {
+          "regionName": "Миколаївська",
+          "value": 30357
+        },
+        {
+          "regionName": "Одеська",
+          "value": 31268
+        },
+        {
+          "regionName": "Полтавська",
+          "value": 48040
+        },
+        {
+          "regionName": "Рівненська",
+          "value": 24762
+        },
+        {
+          "regionName": "Сумська",
+          "value": 26943
+        },
+        {
+          "regionName": "Тернопільська",
+          "value": 20228
+        },
+        {
+          "regionName": "Харківська",
+          "value": 35328
+        },
+        {
+          "regionName": "Херсонська",
+          "value": 21725
+        },
+        {
+          "regionName": "Хмельницька",
+          "value": 24662
+        },
+        {
+          "regionName": "Черкаська",
+          "value": 30628
+        },
+        {
+          "regionName": "Чернівецька",
+          "value": 16552
+        },
+        {
+          "regionName": "Чернігівська",
+          "value": 26530
+        },
+        {
+          "regionName": "Київ",
+          "value": 124163
+        }
+      ],
+      "year": 2014
+    },
+    {
+      "id": 2,
+      "yearData": [
+        {
+          "regionName": "Вінницькії",
+          "value": 27249
+        },
+        {
+          "regionName": "Волинськії",
+          "value": 23218
+        },
+        {
+          "regionName": "Дніпропетровська",
+          "value": 53749
+        },
+        {
+          "regionName": "Донецька",
+          "value": 27771
+        },
+        {
+          "regionName": "Житомирська",
+          "value": 23678
+        },
+        {
+          "regionName": "Закарпатська",
+          "value": 19170
+        },
+        {
+          "regionName": "Запорізька",
+          "value": 37251
+        },
+        {
+          "regionName": "Івано-Франківська",
+          "value": 27232
+        },
+        {
+          "regionName": "Київська",
+          "value": 46058
+        },
+        {
+          "regionName": "Кіровоградська",
+          "value": 29223
+        },
+        {
+          "regionName": "Луганська",
+          "value": 14079
+        },
+        {
+          "regionName": "Львівська",
+          "value": 28731
+        },
+        {
+          "regionName": "Миколаївська",
+          "value": 30357
+        },
+        {
+          "regionName": "Одеська",
+          "value": 31268
+        },
+        {
+          "regionName": "Полтавська",
+          "value": 48040
+        },
+        {
+          "regionName": "Рівненська",
+          "value": 24762
+        },
+        {
+          "regionName": "Сумська",
+          "value": 26943
+        },
+        {
+          "regionName": "Тернопільська",
+          "value": 20228
+        },
+        {
+          "regionName": "Харківська",
+          "value": 35328
+        },
+        {
+          "regionName": "Херсонська",
+          "value": 21725
+        },
+        {
+          "regionName": "Хмельницька",
+          "value": 24662
+        },
+        {
+          "regionName": "Черкаська",
+          "value": 30628
+        },
+        {
+          "regionName": "Чернівецька",
+          "value": 16552
+        },
+        {
+          "regionName": "Чернігівська",
+          "value": 26530
+        },
+        {
+          "regionName": "Київ",
+          "value": 124163
+        }
+      ],
+      "year": 2015
+    },
+    {
+      "id": 3,
+      "yearData": [
+        {
+          "regionName": "Вінницькії",
+          "value": 37270
+        },
+        {
+          "regionName": "Волинськії",
+          "value": 30387
+        },
+        {
+          "regionName": "Дніпропетровська",
+          "value": 65897
+        },
+        {
+          "regionName": "Донецька",
+          "value": 26864
+        },
+        {
+          "regionName": "Житомирська",
+          "value": 30698
+        },
+        {
+          "regionName": "Закарпатська",
+          "value": 22989
+        },
+        {
+          "regionName": "Запорізька",
+          "value": 50609
+        },
+        {
+          "regionName": "Івано-Франківська",
+          "value": 33170
+        },
+        {
+          "regionName": "Київська",
+          "value": 60109
+        },
+        {
+          "regionName": "Кіровоградська",
+          "value": 39356
+        },
+        {
+          "regionName": "Луганська",
+          "value": 10778
+        },
+        {
+          "regionName": "Львівська",
+          "value": 37338
+        },
+        {
+          "regionName": "Миколаївська",
+          "value": 41501
+        },
+        {
+          "regionName": "Одеська",
+          "value": 41682
+        },
+        {
+          "regionName": "Полтавська",
+          "value": 66390
+        },
+        {
+          "regionName": "Рівненська",
+          "value": 30350
+        },
+        {
+          "regionName": "Сумська",
+          "value": 37170
+        },
+        {
+          "regionName": "Тернопільська",
+          "value": 24963
+        },
+        {
+          "regionName": "Харківська",
+          "value": 45816
+        },
+        {
+          "regionName": "Херсонська",
+          "value": 30246
+        },
+        {
+          "regionName": "Хмельницька",
+          "value": 31660
+        },
+        {
+          "regionName": "Черкаська",
+          "value": 40759
+        },
+        {
+          "regionName": "Чернівецька",
+          "value": 20338
+        },
+        {
+          "regionName": "Чернігівська",
+          "value": 35196
+        },
+        {
+          "regionName": "Київ",
+          "value": 155904
+        }
+      ],
+      "year": 2016
+    },
+    {
+      "id": 4,
+      "yearData": [
+        {
+          "regionName": "Вінницькії",
+          "value": 46615
+        },
+        {
+          "regionName": "Волинськії",
+          "value": 34310
+        },
+        {
+          "regionName": "Дніпропетровська",
+          "value": 75396
+        },
+        {
+          "regionName": "Донецька",
+          "value": 32318
+        },
+        {
+          "regionName": "Житомирська",
+          "value": 38520
+        },
+        {
+          "regionName": "Закарпатська",
+          "value": 25727
+        },
+        {
+          "regionName": "Запорізька",
+          "value": 59729
+        },
+        {
+          "regionName": "Івано-Франківська",
+          "value": 37220
+        },
+        {
+          "regionName": "Київська",
+          "value": 74216
+        },
+        {
+          "regionName": "Кіровоградська",
+          "value": 47469
+        },
+        {
+          "regionName": "Луганська",
+          "value": 14251
+        },
+        {
+          "regionName": "Львівська",
+          "value": 45319
+        },
+        {
+          "regionName": "Миколаївська",
+          "value": 45319
+        },
+        {
+          "regionName": "Одеська",
+          "value": 50159
+        },
+        {
+          "regionName": "Полтавська",
+          "value": 81145
+        },
+        {
+          "regionName": "Рівненська",
+          "value": 33958
+        },
+        {
+          "regionName": "Сумська",
+          "value": 41741
+        },
+        {
+          "regionName": "Тернопільська",
+          "value": 29247
+        },
+        {
+          "regionName": "Харківська",
+          "value": 57150
+        },
+        {
+          "regionName": "Херсонська",
+          "value": 36585
+        },
+        {
+          "regionName": "Хмельницька",
+          "value": 37881
+        },
+        {
+          "regionName": "Черкаська",
+          "value": 48025
+        },
+        {
+          "regionName": "Чернівецька",
+          "value": 23365
+        },
+        {
+          "regionName": "Чернігівська",
+          "value": 41726
+        },
+        {
+          "regionName": "Київ",
+          "value": 191736
+        }
+      ],
+      "year": 2017
+    },
+    {
+      "id": 5,
+      "yearData": [
+        {
+          "regionName": "Вінницькії",
+          "value": 58384
+        },
+        {
+          "regionName": "Волинськії",
+          "value": 49987
+        },
+        {
+          "regionName": "Дніпропетровська",
+          "value": 97137
+        },
+        {
+          "regionName": "Донецька",
+          "value": 39411
+        },
+        {
+          "regionName": "Житомирська",
+          "value": 49737
+        },
+        {
+          "regionName": "Закарпатська",
+          "value": 34202
+        },
+        {
+          "regionName": "Запорізька",
+          "value": 75306
+        },
+        {
+          "regionName": "Івано-Франківська",
+          "value": 46312
+        },
+        {
+          "regionName": "Київська",
+          "value": 90027
+        },
+        {
+          "regionName": "Кіровоградська",
+          "value": 55183
+        },
+        {
+          "regionName": "Луганська",
+          "value": 13883
+        },
+        {
+          "regionName": "Львівська",
+          "value": 58221
+        },
+        {
+          "regionName": "Миколаївська",
+          "value": 60549
+        },
+        {
+          "regionName": "Одеська",
+          "value": 62701
+        },
+        {
+          "regionName": "Полтавська",
+          "value": 106248
+        },
+        {
+          "regionName": "Рівненська",
+          "value": 42038
+        },
+        {
+          "regionName": "Сумська",
+          "value": 51419
+        },
+        {
+          "regionName": "Тернопільська",
+          "value": 38593
+        },
+        {
+          "regionName": "Харківська",
+          "value": 69489
+        },
+        {
+          "regionName": "Херсонська",
+          "value": 45532
+        },
+        {
+          "regionName": "Хмельницька",
+          "value": 49916
+        },
+        {
+          "regionName": "Черкаська",
+          "value": 59697
+        },
+        {
+          "regionName": "Чернівецька",
+          "value": 31509
+        },
+        {
+          "regionName": "Чернігівська",
+          "value": 55198
+        },
+        {
+          "regionName": "Київ",
+          "value": 238622
+        }
+      ],
+      "year": 2018
+    },
+    {
+      "id": 6,
+      "yearData": [
+        {
+          "regionName": "Вінницькії",
+          "value": 71104
+        },
+        {
+          "regionName": "Волинськії",
+          "value": 58297
+        },
+        {
+          "regionName": "Дніпропетровська",
+          "value": 114784
+        },
+        {
+          "regionName": "Донецька",
+          "value": 45959
+        },
+        {
+          "regionName": "Житомирська",
+          "value": 62911
+        },
+        {
+          "regionName": "Закарпатська",
+          "value": 41706
+        },
+        {
+          "regionName": "Запорізька",
+          "value": 85784
+        },
+        {
+          "regionName": "Івано-Франківська",
+          "value": 57033
+        },
+        {
+          "regionName": "Київська",
+          "value": 112521
+        },
+        {
+          "regionName": "Кіровоградська",
+          "value": 67763
+        },
+        {
+          "regionName": "Луганська",
+          "value": 16301
+        },
+        {
+          "regionName": "Львівська",
+          "value": 70173
+        },
+        {
+          "regionName": "Миколаївська",
+          "value": 70336
+        },
+        {
+          "regionName": "Одеська",
+          "value": 72738
+        },
+        {
+          "regionName": "Полтавська",
+          "value": 123763
+        },
+        {
+          "regionName": "Рівненська",
+          "value": 49044
+        },
+        {
+          "regionName": "Сумська",
+          "value": 62955
+        },
+        {
+          "regionName": "Тернопільська",
+          "value": 46833
+        },
+        {
+          "regionName": "Харківська",
+          "value": 86904
+        },
+        {
+          "regionName": "Херсонська",
+          "value": 52922
+        },
+        {
+          "regionName": "Хмельницька",
+          "value": 59583
+        },
+        {
+          "regionName": "Черкаська",
+          "value": 76904
+        },
+        {
+          "regionName": "Чернівецька",
+          "value": 37441
+        },
+        {
+          "regionName": "Чернігівська",
+          "value": 69725
+        },
+        {
+          "regionName": "Київ",
+          "value": 283097
+        }
+      ],
+      "year": 2019
+    }
+  ]
+}
+
+
+
+
+
+
+

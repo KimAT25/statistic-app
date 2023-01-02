@@ -1,0 +1,23 @@
+.home {
+  &__title {
+
+  }
+
+  &__description {
+    .text {
+
+    }
+
+    .image {
+
+    }
+  }
+
+  &__calculation-btn {
+    margin-top: 2rem;
+    min-width: 250px;
+    min-height: 50px;
+    font-size: 1.5rem;
+    padding: 0.75rem;
+  }
+}

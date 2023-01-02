@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  color: #FFFFFF;
+  height: 50px;
+
+  &__title {
+    margin: 0;
+    padding: 1rem;
+
+    .author-name {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1440px;
+  min-height: calc(100% - 124px);
+  margin: auto;
+  padding: 74px 2rem 1rem 2rem;
+}
