@@ -9,7 +9,8 @@ const routes: Routes = [
   },
   {
     path: 'calculation',
-    loadChildren: () => import('./components/calculation-page/calculation-page.module')
+    loadChildren: () =>
+      import('./components/calculation-page/calculation-page.module')
         .then(m => m.CalculationPageModule)
   },
   {

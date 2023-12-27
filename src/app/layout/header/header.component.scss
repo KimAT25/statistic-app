@@ -3,12 +3,19 @@
 .header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background-color: #000;
   padding: 0.75rem 1rem 0.75rem 1.25rem;
   position: fixed;
   top: 0;
-  width: 100%;
+  width: calc(100% - 2.25rem);
   z-index: $header-z-index;
+  height: 82px;
+
+  &__logo-title-container {
+    display: flex;
+    align-items: center;
+  }
 
   &__logo {
     margin-right: 1rem;
@@ -22,5 +29,23 @@
     font-size: 1.25rem;
     color:#FFF;
     text-transform: uppercase;
+  }
+
+  &__download-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+
+  &__download-icon {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.75);
+    background-color: #FFFFFF;
+    padding: 2px;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
   }
 }

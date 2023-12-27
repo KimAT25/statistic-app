@@ -10,7 +10,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 
 import { LayoutModule } from './layout/layout.module';
-import { CalculationPageModule } from './components/calculation-page/calculation-page.module';
+import { HttpClientModule } from '@angular/common/http';
+// import { CalculationPageModule } from './components/calculation-page/calculation-page.module';
 
 const LibrariesModule = [
   MatButtonModule
@@ -27,7 +28,8 @@ const LibrariesModule = [
     BrowserAnimationsModule,
     ...LibrariesModule,
     LayoutModule,
-    CalculationPageModule
+    HttpClientModule
+    // CalculationPageModule
   ],
   providers: [],
   bootstrap: [AppComponent]

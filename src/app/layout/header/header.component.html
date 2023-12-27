@@ -1,6 +1,17 @@
-<div class="header" routerLink="/">
-  <img class="header__logo"
-       src="assets/icons/ukraine_logo.svg"
-       alt="logo">
-  <h1 class="header__title">statistic app</h1>
+<div class="header">
+  <div class="header__logo-title-container"
+       routerLink="/">
+    <img class="header__logo"
+         src="assets/icons/ukraine_logo.svg"
+         alt="logo">
+    <h1 class="header__title">statistic app</h1>
+  </div>
+  <div *ngIf="isStatisticPage$ | async"
+       class="header__download-container"
+       (click)="downloadTemplateFile()">
+    <span> download template</span>
+    <img class="header__download-icon"
+         src="assets/icons/excel_icon.svg"
+         alt="exel template file">
+  </div>
 </div>

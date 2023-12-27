@@ -1,299 +1,333 @@
 <div class="calculation-container">
-  <div class="section">
-    <div>
-      <h3>Виберіть основний рік для розрахунку формули 1.30</h3>
-      <ng-container *ngTemplateOutlet="selectField;
+  <h3>Будь ласка завантажте файл із вхідними даними, для того що побчати обрахунки</h3>
+  <div class="section upload-file-container">
+    <button mat-raised-button
+            class="select-file-btn"
+            (click)="hiddenInput.click()">
+      Please select file
+    </button>
+    <input hidden
+           #hiddenInput
+           type="file"
+           accept="*.xls, *.xlsx"
+           (change)="onFileChange($event)">
+    <div class="file-info-section"
+         [@openClose]="!!(fileName && readyFileToUpload)">
+      <h5>
+        Вибраний файл => {{ fileName }}
+        <span class="remove-btn"
+              (click)="removeFile()">
+          X
+        </span>
+      </h5>
+      <button
+              mat-raised-button
+              class="upload-btn"
+              [disabled]="!readyFileToUpload"
+              (click)="uploadFile()">
+        Upload File
+      </button>
+    </div>
+  </div>
+  <ng-container *ngIf="yearList.length > 0">
+    <div class="section">
+      <h3>Дані обчислюватимуться з файлу: {{ fileName }}</h3>
+    </div>
+    <div class="section">
+      <div>
+        <h3>Виберіть основний рік для розрахунку формули 1.30</h3>
+        <ng-container *ngTemplateOutlet="selectField;
                     context: {
                       yearList,
                       control: calculationForm.controls['year'],
                       controlName: 'year'
                     }">
-      </ng-container>
-    </div>
-    <ng-container *ngTemplateOutlet="calculationBlock;
+        </ng-container>
+      </div>
+      <ng-container *ngTemplateOutlet="calculationBlock;
                   context: {
                     title: '1.2. Розрахунок стандартизації первинних чинників за формулою 1.30',
                     image: 'assets/formula/formula_1_30.png',
                     formula: '1.30',
                     calculateFn: calcStandardFirstParams
                   }">
-    </ng-container>
+      </ng-container>
 
-    <div *ngIf="calculatedDataByRegion.length > 0">
-      <mat-expansion-panel (opened)="panelOpenState = true"
-                           (closed)="panelOpenState = false">
-        <mat-expansion-panel-header>
-          <mat-panel-title>
-            результат поданий у вигляді таблиці
-          </mat-panel-title>
-        </mat-expansion-panel-header>
-        <table mat-table [dataSource]="calculatedDataByRegion">
-          <ng-container matColumnDef="position">
-            <th mat-header-cell
-                *matHeaderCellDef>
-              No.
-            </th>
-            <td mat-cell
-                *matCellDef="let element">
-              {{ element.position }}
-            </td>
-          </ng-container>
-          <ng-container matColumnDef="regionName">
-            <th mat-header-cell
-                *matHeaderCellDef>
-              область
-            </th>
-            <td mat-cell
-                *matCellDef="let element">
-              {{ element.regionName }}
-            </td>
-          </ng-container>
-          <ng-container matColumnDef="value">
-            <th mat-header-cell
-                *matHeaderCellDef>
-              стандартизацію первинних чинників
-            </th>
-            <td mat-cell
-                *matCellDef="let element">
-              {{ element.value }}
-            </td>
-          </ng-container>
+      <div *ngIf="calculatedDataByRegion.length > 0">
+        <mat-expansion-panel (opened)="panelOpenState = true"
+                             (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              результат поданий у вигляді таблиці
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <table mat-table [dataSource]="calculatedDataByRegion">
+            <ng-container matColumnDef="position">
+              <th mat-header-cell
+                  *matHeaderCellDef>
+                No.
+              </th>
+              <td mat-cell
+                  *matCellDef="let element">
+                {{ element.position }}
+              </td>
+            </ng-container>
+            <ng-container matColumnDef="regionName">
+              <th mat-header-cell
+                  *matHeaderCellDef>
+                область
+              </th>
+              <td mat-cell
+                  *matCellDef="let element">
+                {{ element.regionName }}
+              </td>
+            </ng-container>
+            <ng-container matColumnDef="value">
+              <th mat-header-cell
+                  *matHeaderCellDef>
+                стандартизацію первинних чинників
+              </th>
+              <td mat-cell
+                  *matCellDef="let element">
+                {{ element.value }}
+              </td>
+            </ng-container>
 
-          <tr mat-header-row
-              *matHeaderRowDef="displayedColumns">
-          </tr>
-          <tr mat-row
-              *matRowDef="let row; columns: displayedColumns;">
-          </tr>
-        </table>
-      </mat-expansion-panel>
+            <tr mat-header-row
+                *matHeaderRowDef="displayedColumns">
+            </tr>
+            <tr mat-row
+                *matRowDef="let row; columns: displayedColumns;">
+            </tr>
+          </table>
+        </mat-expansion-panel>
+      </div>
     </div>
-  </div>
 
-  <div class="section">
-    <ng-container *ngTemplateOutlet="calculationBlock;
+    <div class="section">
+      <ng-container *ngTemplateOutlet="calculationBlock;
                   context: {
                     title: '1.1. Розрахунок комплексного абсолютного інтегрального показника за формулою 1.36',
                     image: 'assets/formula/formula_1_36.png',
                     formula: '1.36',
                     calculateFn: calcComplexAbsParam
                   }">
-    </ng-container>
+      </ng-container>
 
-    <div *ngIf="standardValueOfJ.length > 0">
-      <mat-expansion-panel (opened)="panelOpenState = true"
-                           (closed)="panelOpenState = false">
-        <mat-expansion-panel-header>
-          <mat-panel-title>
-            результат поданий у вигляді таблиці
-          </mat-panel-title>
-        </mat-expansion-panel-header>
-        <table mat-table [dataSource]="standardValueOfJ">
-          <ng-container matColumnDef="position">
-            <th mat-header-cell
-                *matHeaderCellDef>
-              No.
-            </th>
-            <td mat-cell
-                *matCellDef="let element">
-              {{ element.position }}
-            </td>
-          </ng-container>
-          <ng-container matColumnDef="regionName">
-            <th mat-header-cell
-                *matHeaderCellDef>
-              область
-            </th>
-            <td mat-cell
-                *matCellDef="let element">
-              {{ element.regionName }}
-            </td>
-          </ng-container>
-          <ng-container matColumnDef="value">
-            <th mat-header-cell
-                *matHeaderCellDef>
-              стандартизоване значення
-            </th>
-            <td mat-cell
-                *matCellDef="let element">
-              {{ element.value }}
-            </td>
-          </ng-container>
+      <div *ngIf="standardValueOfJ.length > 0">
+        <mat-expansion-panel (opened)="panelOpenState = true"
+                             (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              результат поданий у вигляді таблиці
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <table mat-table [dataSource]="standardValueOfJ">
+            <ng-container matColumnDef="position">
+              <th mat-header-cell
+                  *matHeaderCellDef>
+                No.
+              </th>
+              <td mat-cell
+                  *matCellDef="let element">
+                {{ element.position }}
+              </td>
+            </ng-container>
+            <ng-container matColumnDef="regionName">
+              <th mat-header-cell
+                  *matHeaderCellDef>
+                область
+              </th>
+              <td mat-cell
+                  *matCellDef="let element">
+                {{ element.regionName }}
+              </td>
+            </ng-container>
+            <ng-container matColumnDef="value">
+              <th mat-header-cell
+                  *matHeaderCellDef>
+                стандартизоване значення
+              </th>
+              <td mat-cell
+                  *matCellDef="let element">
+                {{ element.value }}
+              </td>
+            </ng-container>
 
-          <ng-container matColumnDef="footer">
-            <td mat-footer-cell *matFooterCellDef colspan="2">
-              комплексний абсолютний інтегральний показник становить для всіх регіонів вибраного року вище, становить:
-              {{ complexAbsIntegralParams }}
-            </td>
-          </ng-container>
+            <ng-container matColumnDef="footer">
+              <td mat-footer-cell *matFooterCellDef colspan="2">
+                комплексний абсолютний інтегральний показник становить для всіх регіонів вибраного року вище, становить:
+                {{ complexAbsIntegralParams }}
+              </td>
+            </ng-container>
 
-          <tr mat-header-row
-              *matHeaderRowDef="displayedColumns">
-          </tr>
-          <tr mat-row
-              *matRowDef="let row; columns: displayedColumns;">
-          </tr>
-          <tr mat-footer-row *matFooterRowDef="['footer']"></tr>
-        </table>
-      </mat-expansion-panel>
+            <tr mat-header-row
+                *matHeaderRowDef="displayedColumns">
+            </tr>
+            <tr mat-row
+                *matRowDef="let row; columns: displayedColumns;">
+            </tr>
+            <tr mat-footer-row *matFooterRowDef="['footer']"></tr>
+          </table>
+        </mat-expansion-panel>
+      </div>
+
     </div>
 
-  </div>
-
-  <div class="section">
-    <div>
-      <h3>Виберіть основний рік для розрахунку</h3>
-      <ng-container *ngTemplateOutlet="selectField;
+    <div class="section">
+      <div>
+        <h3>Виберіть основний рік для розрахунку</h3>
+        <ng-container *ngTemplateOutlet="selectField;
                     context: {
                       yearList, control:
                       calculationForm.controls['mainYear'],
                       controlName: 'mainYear'
                     }">
-      </ng-container>
-      <h3>Виберіть діапазон року для порівняння з основним</h3>
-      <ng-container *ngTemplateOutlet="selectField;
+        </ng-container>
+        <h3>Виберіть діапазон року для порівняння з основним</h3>
+        <ng-container *ngTemplateOutlet="selectField;
                     context: {
                       yearList,
                       control: calculationForm.controls['comparableYear'],
                       controlName: 'comparableYear'
                     }">
-      </ng-container>
-    </div>
-    <ng-container *ngTemplateOutlet="calculationBlock;
+        </ng-container>
+      </div>
+      <ng-container *ngTemplateOutlet="calculationBlock;
                   context: {
                     title: '2.1 Розрахунок базовий інтегральний темповий індекс розвитку для 2019 р. в за формулою 1.39',
                     image: 'assets/formula/formula_1_39.png',
                     formula: '1.39',
                     calculateFn: calcBaseIntegralTempIndex
                   }">
-    </ng-container>
+      </ng-container>
 
-    <div *ngIf="baseIntegralTempIndexData.length > 0">
-      <mat-expansion-panel (opened)="panelOpenState = true"
-                           (closed)="panelOpenState = false">
-        <mat-expansion-panel-header>
-          <mat-panel-title>
-            результат поданий у вигляді таблиці
-          </mat-panel-title>
-        </mat-expansion-panel-header>
-        <table mat-table [dataSource]="baseIntegralTempIndexData">
-          <ng-container matColumnDef="position">
-            <th mat-header-cell
-                *matHeaderCellDef>
-              No.
-            </th>
-            <td mat-cell
-                *matCellDef="let element">
-              {{ element.position }}
-            </td>
-          </ng-container>
-          <ng-container matColumnDef="regionName">
-            <th mat-header-cell
-                *matHeaderCellDef>
-              область
-            </th>
-            <td mat-cell
-                *matCellDef="let element">
-              {{ element.regionName }}
-            </td>
-          </ng-container>
-          <ng-container matColumnDef="value">
-            <th mat-header-cell
-                *matHeaderCellDef>
-              базовий інтегральний темповий індекс розвитку
-            </th>
-            <td mat-cell
-                *matCellDef="let element">
-              {{ element.value }}
-            </td>
-          </ng-container>
+      <div *ngIf="baseIntegralTempIndexData.length > 0">
+        <mat-expansion-panel (opened)="panelOpenState = true"
+                             (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              результат поданий у вигляді таблиці
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <table mat-table [dataSource]="baseIntegralTempIndexData">
+            <ng-container matColumnDef="position">
+              <th mat-header-cell
+                  *matHeaderCellDef>
+                No.
+              </th>
+              <td mat-cell
+                  *matCellDef="let element">
+                {{ element.position }}
+              </td>
+            </ng-container>
+            <ng-container matColumnDef="regionName">
+              <th mat-header-cell
+                  *matHeaderCellDef>
+                область
+              </th>
+              <td mat-cell
+                  *matCellDef="let element">
+                {{ element.regionName }}
+              </td>
+            </ng-container>
+            <ng-container matColumnDef="value">
+              <th mat-header-cell
+                  *matHeaderCellDef>
+                базовий інтегральний темповий індекс розвитку
+              </th>
+              <td mat-cell
+                  *matCellDef="let element">
+                {{ element.value }}
+              </td>
+            </ng-container>
 
 
-          <tr mat-header-row
-              *matHeaderRowDef="displayedColumns">
-          </tr>
-          <tr mat-row
-              *matRowDef="let row; columns: displayedColumns;">
-          </tr>
-        </table>
-      </mat-expansion-panel>
+            <tr mat-header-row
+                *matHeaderRowDef="displayedColumns">
+            </tr>
+            <tr mat-row
+                *matRowDef="let row; columns: displayedColumns;">
+            </tr>
+          </table>
+        </mat-expansion-panel>
+      </div>
+
     </div>
-
-  </div>
-  <div class="section">
-    <h3>
-      Розрахунок проводиться для всього діпазону років. З {{ yearList[0].name }} по {{ yearList[yearList.length - 1].name }}
-    </h3>
-    <ng-container *ngTemplateOutlet="calculationBlock;
+    <div class="section">
+      <h3>
+        Розрахунок проводиться для всього діпазону років. З {{ yearList[0].name }} по {{ yearList[yearList.length - 1].name }}
+      </h3>
+      <ng-container *ngTemplateOutlet="calculationBlock;
                   context: {
                     title: '2.2 Розрахунок базовий інтегральний темповий індекс розвитку для 2019 р. в за формулою 1.40',
                     image: 'assets/formula/formula_1_40.png',
                     formula: '1.40',
                     calculateFn: calcChainBaseIntegralTempIndex
                   }">
-    </ng-container>
+      </ng-container>
 
-    <div *ngIf="chainIntegralTempIndexData.length > 0">
-      <mat-expansion-panel (opened)="panelOpenState = true"
-                           (closed)="panelOpenState = false">
-        <mat-expansion-panel-header>
-          <mat-panel-title>
-            результат поданий у вигляді таблиці
-          </mat-panel-title>
-        </mat-expansion-panel-header>
-        <table mat-table [dataSource]="chainIntegralTempIndexData">
-          <ng-container matColumnDef="position">
-            <th mat-header-cell
-                *matHeaderCellDef>
-              No.
-            </th>
-            <td mat-cell
-                *matCellDef="let element">
-              {{ element.position }}
-            </td>
-          </ng-container>
-          <ng-container matColumnDef="regionName">
-            <th mat-header-cell
-                *matHeaderCellDef>
-              область
-            </th>
-            <td mat-cell
-                *matCellDef="let element">
-              {{ element.regionName }}
-            </td>
-          </ng-container>
-          <ng-container matColumnDef="comparablePairs">
-            <th mat-header-cell
-                *matHeaderCellDef>
-              порівняльні пари років
-            </th>
-            <td mat-cell
-                *matCellDef="let element">
-              {{ element.comparablePairs }}
-            </td>
-          </ng-container>
-          <ng-container matColumnDef="value">
-            <th mat-header-cell
-                *matHeaderCellDef>
-              ланцюгові інтегральні темпові індекси розвитку
-            </th>
-            <td mat-cell
-                *matCellDef="let element">
-              {{ element.value }}
-            </td>
-          </ng-container>
+      <div *ngIf="chainIntegralTempIndexData.length > 0">
+        <mat-expansion-panel (opened)="panelOpenState = true"
+                             (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              результат поданий у вигляді таблиці
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <table mat-table [dataSource]="chainIntegralTempIndexData">
+            <ng-container matColumnDef="position">
+              <th mat-header-cell
+                  *matHeaderCellDef>
+                No.
+              </th>
+              <td mat-cell
+                  *matCellDef="let element">
+                {{ element.position }}
+              </td>
+            </ng-container>
+            <ng-container matColumnDef="regionName">
+              <th mat-header-cell
+                  *matHeaderCellDef>
+                область
+              </th>
+              <td mat-cell
+                  *matCellDef="let element">
+                {{ element.regionName }}
+              </td>
+            </ng-container>
+            <ng-container matColumnDef="comparablePairs">
+              <th mat-header-cell
+                  *matHeaderCellDef>
+                порівняльні пари років
+              </th>
+              <td mat-cell
+                  *matCellDef="let element">
+                {{ element.comparablePairs }}
+              </td>
+            </ng-container>
+            <ng-container matColumnDef="value">
+              <th mat-header-cell
+                  *matHeaderCellDef>
+                ланцюгові інтегральні темпові індекси розвитку
+              </th>
+              <td mat-cell
+                  *matCellDef="let element">
+                {{ element.value }}
+              </td>
+            </ng-container>
 
-          <tr mat-header-row
-              *matHeaderRowDef="displayedColumnsChain">
-          </tr>
-          <tr mat-row
-              *matRowDef="let row; columns: displayedColumnsChain;">
-          </tr>
-        </table>
-      </mat-expansion-panel>
+            <tr mat-header-row
+                *matHeaderRowDef="displayedColumnsChain">
+            </tr>
+            <tr mat-row
+                *matRowDef="let row; columns: displayedColumnsChain;">
+            </tr>
+          </table>
+        </mat-expansion-panel>
+      </div>
     </div>
-
-  </div>
+  </ng-container>
 </div>
 
 <ng-template #calculationBlock
